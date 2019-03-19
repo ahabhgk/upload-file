@@ -1,0 +1,9 @@
+.wrap {
+  width: 23%;
+  display: inline-block;
+  margin: 5%;
+}
+
+.img {
+  width: 100%;
+}

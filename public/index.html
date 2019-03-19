@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style/index.css">
+  <title>upload file</title>
+</head>
+<body>
+  <progress id="uploadprogress" min="0" max="100" value="0"></progress>
+  <form id="form" method="POST" action="/api/upload">
+    <div class="wrap">
+      <div id="input-wrap"><input name="userFile" type="file" /></div>
+      <button type="submit">submit</button>
+    </div>
+    <div id="preview"></div>
+  </form>
+  <div id="holder"></div>
+  <a href="/uploaded.html">View uploaded.</a>
+<script type="module" src="./js/index.js"></script>
+</body>
+</html>

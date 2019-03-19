@@ -1,0 +1,15 @@
+{
+  "name": "upload-file-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "ahabhgk",
+  "license": "MIT",
+  "dependencies": {
+    "multiparty": "^4.2.1"
+  }
+}
